@@ -6,7 +6,7 @@ Para utilizar e obter os resultados deste teste, basta executar o documento inde
 Neste projeto te levaremos para conhecer os personagens animados do desenho **Rick and Morty**, onde te listará 04 personagens por vez, e sempre que quiser saber o nome de mais alguém, basta clicar no botão **VER MAIS PERSONAGENS** e você terá mais 04 personagens novos para conhecer, aproveite! :smiley:
 
 
-Bibliografia:
+# Bibliografia:
 
 ### Informações da API utilizada para consumo das informações exibidas na página.
 - https://rickandmortyapi.com/api/character
