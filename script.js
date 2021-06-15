@@ -58,20 +58,12 @@ function getData(page) {
 function character(item) { // função que é executada em cada item do loop no foreach
 	if(escolhas.includes(item.id)) { // se o item.id estiver em escolhas -> executa a adição desse dado na tabela html
 		document.getElementById('data').innerHTML += `
-			<td>
-				<table>
-					<tr>
-						<td>
-							<img src="${item.image}"/>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							${item.name}
-						</td>
-					</tr>
-				</table>
-			</td>`; // adicionar a linha html com o dado
+			<div class="containerPersonagens">
+					<img src="${item.image}">
+					<h3 class="containerNames">${item.name}</h3>
+			</div>
+			
+		`; // adicionar a linha html com o dado ${item.name} ${item.image}
 	}
 }
 
@@ -83,4 +75,9 @@ function generate_escolhas(page_ini, page_fin) {
 
 function getNumber(inicio, fim) { // função que gera um numero aleatório no intervalo
 	return Math.floor(Math.random() * (fim - inicio)) + inicio; // return um numero inteiro (Math.floor), no intervalo indicado com inicio e fim
+}
+
+function resetPersonagens() { // função para atualizar os personagens sem recarregar a página
+	document.getElementById('data').innerHTML = '' // renova os personagens sem necessidade de atualizar a página
+	getQtPages()
 }
