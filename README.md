@@ -1,5 +1,10 @@
 # RickandMortyTest
 
+## Como utilizar:
+Para utilizar e obter os resultados deste teste, basta executar o documento index.html utilizando um navegador de sua preferência. 
+Note que o projeto está configurado para renderização nos navegadores Internet explorer e Edge, da Microsoft.
+Ele te levará a conhecer os personagens animados do desenho **Rick and Morty**, onde te listará 04 personagens por vez, e sempre que quiser saber o nome de mais alguém, basta clicar no botão **VER MAIS PERSONAGENS** e você terá mais 04 personagens novos para conhecer, aproveite! :smiley:
+
 
 Bibliografia:
 
