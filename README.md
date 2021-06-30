@@ -34,3 +34,8 @@ Neste projeto te levaremos para conhecer os personagens animados do desenho **Ri
 
 ### Método utilizado para verificar a quantidade de informações na tela, tornando-as únicas, caso o resultado seja falso, repete o processo.
 - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+
+
+### Método utilizado para auxilio na criação do modal de detalhes
+- https://www.w3schools.com/howto/howto_css_modals.asp
+- https://www.w3schools.com/css/css_grid.asp

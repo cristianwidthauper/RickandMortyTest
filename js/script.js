@@ -59,7 +59,7 @@ function character(item) { // função que é executada em cada item do loop no 
 	if(escolhas.includes(item.id)) { // se o item.id estiver em escolhas -> executa a adição desse dado na tabela html
 		document.getElementById('data').innerHTML += `
 			<div class="containerPersonagens">
-					<img src="${item.image}">
+					<img onclick="details('${item.status}', '${item.species}', '${item.gender}', '${item.image}')" src="${item.image}">
 					<h3 class="containerNames">${item.name}</h3>
 			</div>
 			
